@@ -1,0 +1,36 @@
+step1:npm init
+step2:npm install express ejs
+step3:npm i --save-dev nodemon dotenv(dev dependensies)
+
+nodemon =>used to restart our server everytime we make changes
+
+step4:make a .env file under your project directory
+step5:make a .gitignore file
+             -.env
+             -node_modules
+
+.env=>contain secret and sensitive information
+
+step6:go to package.json file
+      "scripts": {
+      "devStart":"nodemon server.js"
+      },
+
+step7:make a server.js file
+      =>npm run devStart
+
+step8:make a directory views and make a file inside this
+      -index.ejs
+      -login.ejs
+      -register.ejs
+
+step9:npm i bcrypt && include this in server.js file (for password)
+
+step10:npm i passport passport-local express-session express-flash
+step11:make a file passport-config.js
+
+
+
+
+
+
